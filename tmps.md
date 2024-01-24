@@ -20,4 +20,10 @@ Q: How many steps should we move A (A is longer)?
 A: len(A) - len(B) (currentA is already the one step)  
 
 
+### 142. linked list cycle ii  
+Q: How to tell whether's a loop inside the liked list?  
+A: dual pointers (fast, slow) encounter!  
+Q: How to determine the starting point of the loop?  
+A: two pointers (same pace, starting from head and encountered point seperatedly!) encounter again! Then, that is the staring point!  
+
 
