@@ -38,5 +38,10 @@ Q: what's the **key idea** of these xxsum questions?
 A: Iterate the array, use left (i+1) and right (from n-1 inversely) to find propor combinations!  
 
 
+### 344. reverse string
+Q: why not while left <= right?  
+A: when left == right, why bother exchange the same letter?  
+T: swap element in python: A, B = B, A
+
 
 
