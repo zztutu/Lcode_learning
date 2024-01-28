@@ -31,4 +31,12 @@ Q: how to removing repeatings?
 A: if nums[i] == nums[i-1]: continue 
 
 
+### 18. 4sum
+S: very similar to 3sum, just adding one more **loop layer**!  
+This is important as xxsum can follow the similar way!  
+Q: what's the **key idea** of these xxsum questions?  
+A: Iterate the array, use left (i+1) and right (from n-1 inversely) to find propor combinations!  
+
+
+
 
